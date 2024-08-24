@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: rgb(7, 22, 65);
+}
+.nav {
+	list-style: none;
+	text-align: center;
+	padding: 10px 0;
+}
+.nav li {
+	display: inline;
+	font-size: 25px;
+	margin: 0 25px;
+}
+button {
+	font-size: 20px;
+}
+.item1 {
+	font-size: 40px;
+	color: rgb(176, 176, 22);
+	margin-right: 200px;
+}
+.btn1 button {
+	background: transparent;
+	border: none;
+	margin-left: 100px;
+}
+.btn2 button {
+	padding: 10px 20px;
+	background-color: purple;
+	color: white;
+	border: none;
+}
+a {
+	text-decoration: none;
+	color:  white;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.left {
+	width: 600px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+	font-size: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image {
+	margin-top: 3rem;
+}
+.p1 {
+	text-align: center;
+	padding: 0px 60px 60px 60px;
+	color: white;
+}
+.h31 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	text-decoration: underline;
+}
+section {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+.hobby, .services h3, .serviceslist  {
+	color: white;
+	font-size: 25px;
+	padding: 0px 60px 60px 90px;
+}
+.about {
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	margin-top: 50px;
+}
+.pro {
+	color: white;
+	padding: 0px 60px 0px 90px;
+	font-size: 25px;
+}
+section {
+	color: white;
+}
+.services h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+.image {
+	padding: 0px 60px 60px 90px;
+}
+#main1 {
+	padding: 20px;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	color: white;
+	display: block;
+}
