@@ -1,0 +1,42 @@
+Final Project Instructions
+Folder Name: Final Project
+
+Create the Main Folder:
+
+First, create a folder on your computer and name it Final Project. This is where all your files for the project will go.
+Create Subfolders:
+
+Inside the Final Project folder, create two new folders:
+assets: This folder will hold all the images you want to use in your project.
+css: This folder will store your CSS files.
+Organize Your Files:
+
+For each HTML file (like index.html, portfolio.html, etc.), you will create a separate CSS file with the same name but with a .css extension. For example:
+index.html will use a CSS file called index.css.
+portfolio.html will use a CSS file called portfolio.css.
+Place all your CSS files in the css folder.
+Store any images you want to use in your project inside the assets folder.
+Link Your CSS Files:
+
+In each of your HTML files, make sure to link to the correct CSS file from the css folder. For example, in index.html, you would link to css/index.css like this:
+html
+Copy code
+<link rel="stylesheet" href="css/index.css">
+Final Structure:
+
+Your project should look like this:
+scss
+Copy code
+Final Project/
+├── assets/
+│   └── (your images here)
+├── css/
+│   ├── index.css
+│   ├── portfolio.css
+│   └── (other CSS files)
+├── index.html
+├── portfolio.html
+├── (other HTML files)
+Start Coding:
+
+Now you're ready to start coding! Open your index.html file and start building your home page. Use the css/index.css file to style it.

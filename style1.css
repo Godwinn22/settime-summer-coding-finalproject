@@ -37,6 +37,7 @@ button {
 	color: white;
 	border: none;
 }
+
 a {
 	text-decoration: none;
 	color:  white;
@@ -44,7 +45,7 @@ a {
 
 
 header {
-    background-color: #333;
+	background-color: #333;
     color: white;
     padding: 1em 0;
     text-align: center;
