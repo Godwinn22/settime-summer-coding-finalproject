@@ -1,3 +1,29 @@
+# Task 1: Identifying the Positions of a Word in a Sentence
+In this task, you are required to create a program that identifies all the positions where a word occurs in a sentence. The program will take a word as input, search for that word in the sentence without considering case sensitivity, and return the positions of all occurrences of the word.
+
+# Task 2: Replace Words with Positions and Save to a File
+Problem
+You need to extend the program to replace each word in the sentence with its position in a unique list of words. Then, save the list of words and their positions in the sentence to a file.
+
+# Number 2. Code and test a program to
+- identify the individual words in a sentence and stare them in a list 
+- create a list of positions for words in that list
+- save these two lists as a single file or as separate files.
+
+To address this task, I'll walk you through the solution where we:
+
+Identify individual words in a sentence and store them in a list.
+Create a list of positions for each word based on their position in the unique list of words.
+Save these two lists (either as a single file or as separate files).
+Steps:
+List 1: A list of unique words (ignoring case) from the sentence.
+List 2: A list of positions where each word from the sentence appears in the unique words list.
+You will have the option to save these lists as either:
+
+A single file containing both the lists.
+Two separate files where each file contains one list.
+Python Code Implementation:
+
 Explanation:
 process_sentence():
 Takes a sentence as input and splits it into individual words.
